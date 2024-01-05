@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internet Service Selection</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Internet Service Selection</h1>
+        <div class="service-selection">
+            <label for="service">Choose a service:</label>
+            <select id="service" name="service">
+                <option value="fiber">Fiber Internet</option>
+                <option value="dsl">DSL Internet</option>
+                <option value="cable">Cable Internet</option>
+                <option value="satellite">Satellite Internet</option>
+            </select>
+            <button onclick="submitSelection()">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        function submitSelection() {
+            var service = document.getElementById("service").value;
+            alert("You selected: " + service);
+            // Here you can add more functionality to process the selection
+        }
+    </script>
+</body>
+</html>

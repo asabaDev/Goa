@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Page</title>
+</head>
+<body>
+    <h1>Welcome to the Photo Page</h1>
+    <a href="http://example.com">
+        <img src="your-photo.jpg" alt="Photo Description">
+    </a>
+    <p>Click on the photo to go to another page.</p>
+</body>
+</html>
