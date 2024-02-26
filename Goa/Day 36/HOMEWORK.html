@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Transform and Animation Example</title>
+    <style>
+        .effect-box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 10px;
+            transition: all 0.5s ease;
+        }
+
+        .effect-box:hover {
+            transform: scale(1.5);
+            background-color: red;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 10px;
+            animation: spin 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="effect-box"></div>
+    <div class="animated-box"></div>
+
+</body>
+</html>
