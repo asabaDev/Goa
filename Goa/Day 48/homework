@@ -1,0 +1,39 @@
+const pi = 3.14;
+const radius = 10;
+
+const area = pi * (radius * radius);
+const circumference = 2 * pi * radius;
+
+console.log("Area of the circle: " + area);
+console.log("Circumference of the circle: " + circumference);
+
+let num1 = 15;
+let num2 = 25;
+
+console.log("num1 > num2 is " + (num1 > num2));
+console.log("num1 >= num2 is " + (num1 >= num2));
+console.log("num1 < num2 is " + (num1 < num2));
+console.log("num1 <= num2 is " + (num1 <= num2));
+console.log("num1 == num2 is " + (num1 == num2));
+console.log("num1 != num2 is " + (num1 != num2));
+
+const bookTitle = "JavaScript: The Good Parts";
+const pages = 176;
+
+console.log("Book: " + bookTitle + ", Pages: " + pages);
+
+const firstName = "Giorgi";
+const lastName = "Smith";
+const age = 28;
+const residence = "Tbilisi";
+
+console.log("Name: " + firstName + " " + lastName + ", Age: " + age + ", Residence: " + residence);
+
+const value1 = 50;
+const value2 = 3;
+
+console.log("Addition: " + (value1 + value2));
+console.log("Subtraction: " + (value1 - value2));
+console.log("Multiplication: " + (value1 * value2));
+console.log("Division: " + (value1 / value2));
+console.log("Modulo: " + (value1 % value2));

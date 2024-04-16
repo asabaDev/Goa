@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize Image</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <button id="btn1">Set width to 300px</button>
+    <button id="btn2">Set width to 500px</button>
+    <img id="image" src="path_to_your_image.jpg" alt="Image" width="200">
+</body>
+</html>
